@@ -3,10 +3,10 @@ import './App.css';
 
 function App() {
 
-  const [state, setState] = useState(initialState)
+  const [state, setState] = useState()
 
   useEffect(() => {
-    console.log("this is what´s been added from web"
+    console.log("this is what´s been added from web")
   }, [])
 
   return (
