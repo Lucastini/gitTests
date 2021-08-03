@@ -6,7 +6,7 @@ function App() {
   const [state, setState] = useState(initialState)
 
   useEffect(() => {
-    
+    console.log("this is what´s been added from web"
   }, [])
 
   return (
